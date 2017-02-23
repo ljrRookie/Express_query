@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@mipmap/timg"
+>
+
+<EditText
+    android:id="@+id/company"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="请输入公司名称："
+    android:text="韵达"/>
+    <EditText
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入订单号："/>
+    <Button
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询"/>
+</LinearLayout>
