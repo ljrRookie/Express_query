@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-   android:background="@mipmap/timg"
 >
 
 <EditText
@@ -21,7 +20,22 @@
         android:hint="请输入订单号："/>
     <Button
         android:id="@+id/query"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="查询"/>
+        android:text="查询"
+        android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="支持以下公司的查询业务："
+            android:gravity="center"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/companyName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
 </LinearLayout>
